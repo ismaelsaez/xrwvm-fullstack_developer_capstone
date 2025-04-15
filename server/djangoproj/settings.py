@@ -31,12 +31,15 @@ DEBUG = True
 ALLOWED_HOSTS=[
     'localhost',
     'ismaelsaezcr-8000.theianext-0-labs-prod-misc-tools-us-east-0.proxy.cognitiveclass.ai',
-    'ismaelsaezcr-8000.theiadockernext-0-labs-prod-theiak8s-4-tor01.proxy.cognitiveclass.ai'
+    'ismaelsaezcr-8000.theiadockernext-0-labs-prod-theiak8s-4-tor01.proxy.cognitiveclass.ai',
+    'sentianalyzer.1u9leddfo25q.us-south.codeengine.appdomain.cloud'
 ]
 
 CSRF_TRUSTED_ORIGINS=[
     'https://ismaelsaezcr-8000.theianext-0-labs-prod-misc-tools-us-east-0.proxy.cognitiveclass.ai',
-    'https://ismaelsaezcr-8000.theiadockernext-0-labs-prod-theiak8s-4-tor01.proxy.cognitiveclass.ai'
+    'https://ismaelsaezcr-8000.theiadockernext-0-labs-prod-theiak8s-4-tor01.proxy.cognitiveclass.ai',
+    'https://sentianalyzer.1u9leddfo25q.us-south.codeengine.appdomain.cloud',
+
 ]
 
 
